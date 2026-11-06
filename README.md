@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://www.bulkpublish.com"><img src="assets/banner.png" alt="BulkPublish for Hermes Agent" width="720"></a>
+  <a href="https://www.bulkpublish.com"><img src="assets/og-default.jpg" alt="BulkPublish" width="720"></a>
 </p>
 
 # BulkPublish for Hermes Agent
@@ -93,7 +93,7 @@ So you know before installing:
 | `plugin.json` | Agent Plugins v1 manifest, with the Hermes `trust: untrusted` extension for the server |
 | `mcp.json` | The hosted BulkPublish MCP server (Streamable HTTP) |
 | `skills/` | 33 Agent Skills, loaded by Hermes as `bulkpublish:<skill>` |
-| `assets/` | Official BulkPublish logo and catalog banner |
+| `assets/` | Official BulkPublish logo (`logo.svg`) and the same image used on https://www.bulkpublish.com/social-media-api/ (`og-default.jpg`) |
 
 ## Support
 
