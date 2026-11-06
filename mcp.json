@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "bulkpublish": {
+      "type": "streamable-http",
+      "url": "https://mcp.bulkpublish.com/mcp/full",
+      "headers": {
+        "Authorization": "Bearer ${BULKPUBLISH_API_KEY}"
+      }
+    }
+  }
+}
